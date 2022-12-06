@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+    ServerAdmin admin@ejemplo.com
+    ServerName Gymgreat.com
+    ServerAlias www.Gymgreat.com
+    DocumentRoot /var/www/Gymgreat.com/html
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
